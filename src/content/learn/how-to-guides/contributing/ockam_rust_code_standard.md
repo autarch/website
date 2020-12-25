@@ -93,8 +93,8 @@ let my_weight_lbs = 0;
 
 ```rust
 struct Foo {
-    foo Next, /* List of active foo */
-    bar usize,
+    foo: Next, /* List of active foo */
+    bar: usize,
     baz: usize, /* Bitfield */
 };
 ```
